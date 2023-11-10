@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color: rgb(245, 247, 245);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.links{
+    /* background-color: red; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    align-self: center;
+    font-size: 27px;
+}
+.logo{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.logo button{
+    display: none;
+}
+.logo h1{
+    margin-left: 20px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.links a{
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    font-size: 27px;
+}
+/**
+@keyframes color {
+0%   { background-image: url("alex-zeng-vPIbf9XXnJA-unsplash.jpg"); }
+/* 40%  { background-image: url("alyssa-strohmann-2r2RUsEU1Aw-unsplash.jpg")} */
+/* 50%  { background-image: url("reisetopia-bkdPrItKrrY-unsplash.jpg")} */
+/* 100%  { background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg") } */
+/* } */
+
+.body{
+    background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: color 9s infinite linear;
+    width: 100vw;
+    height: 90vh;
+}
+.contentmiddle{
+    background-color: rgb(249, 252, 252);
+    width: 30vw;
+    height: 25vh;
+    margin-left: 37%;
+    margin-top:29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentmiddle h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contentmiddle button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+.view1{
+    background-color: aqua;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.res{
+    background-color: rgb(254, 254, 254);
+    width: 50%;
+}
+.res h1 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+
+}
+.res p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.res button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.res img{
+    width: 100%;
+    height: 70%;
+}
+.new{
+    background-color: rgb(251, 251, 254);
+    width: 50%;
+}
+.new h1{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.new p{
+
+    font-size: 20px;
+    margin-left: 20px;
+}
+.new img{
+    width: 100%;
+    height: 70%;
+}
+.new button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.projects{
+    background-color:#FEF9EF;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projects>div{
+    background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg");
+    height: 50vh;
+    margin-left: 40px ;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.projects>div:first-of-type{
+   
+}
+.projects>div:last-of-type{
+    width: 95vw;
+    height: 10vh;
+    margin-top: -50px;
+    margin-bottom: -120%;
+}
+.project1 h1,.heading h1{
+    text-align: center;
+    margin-left: 100px;
+    text-align: center;
+}
+.project1,.heading{
+    background-color: #FFFBF5;
+    width: 100vw;
+}
+.services{
+    background-color: rgb(249, 246, 246);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.services>div{
+    background-color: white;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 30%;
+}
+.services>div img{
+    width: 100%;
+    height: 50%;
+}
+.services>div button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.services>div h1{
+    margin-top: 10%;
+}
+.about{
+    background-color: rgb(250, 250, 255);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about>div{
+    background-color: white;
+    margin-bottom: 30px;
+    width: 30%;
+}
+.about .info{
+    color: black;
+    height: 90%;
+}
+.about .info h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.about .info p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.about .info button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.about .image{
+    background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg");
+    width: 60%;
+    height: 90%;
+}
+.reviews{
+    background-color: rgb(248, 252, 248);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.reviews>div{
+    background-color: rgb(245, 238, 238);
+    margin-bottom: 30px;
+    width: 70%;
+}
+.review1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 44%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.review1 button{
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 300px;                
+}
+.review1 h1{
+    text-align: center;
+    margin-left: 40px;
+}
+.review1 h2{
+    font-size: 30px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+.review1 p{
+    font-size: 20px;
+    margin-left: 30%;
+}
+.review1 button:first-of-type{
+    margin-left: 35%;
+}
+.contactsfooter{
+    background-color: #041562;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contactsfooter>div{
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 46vh;
+}
+.contact1{
+}
+.social{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.social a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.info{
+    padding: 14px;
+    height: 30vh;
+    color: white;
+}
+.info p{
+    font-size: 20px;
+    padding: 15px;
+}
+.contact2{
+    height: 48vh;
+}
+.contact2 form{
+    display: flex;
+    flex-direction: column;
+}
+.contact2 form input,textarea{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 19px;
+}.backtotop{
+    background-color: green;
+    height: 10vh;
+    margin-top: 20vh;padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+.links{
+width: 100%;
+flex-direction: column;
+height: 100vh;
+position: absolute;
+display: none;
+margin-top: 100px;
+position: fixed!important
+
+}
+.logo{
+margin-left: 0;
+width: 100%;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.logo button{
+margin-left: 40vw;
+display: block;
+float: right;
+}
+.show{
+display: flex;
+}
+.view1{
+    flex-direction: column;
+    height: 210vh;
+}
+.view1>div{
+    width: 100vw;
+    height: 50%;
+}
+.contentmiddle{
+    width: 100vw;
+    margin-left: 0px;
+    height: 30vh;
+    margin-top: 190px;
+}
+.contentmiddle h1{
+    font-size: 1.4rem
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    height: 400vh;
+}
+.projects>div{
+    width: 100vw;
+    margin-left: 0;
+}
+.projects>div:last-of-type{
+    margin-bottom: 0;
+    margin-top: 50px;
+    width: 100vw;
+}
+.projects>div:last-of-type button{
+    margin-left: 40%;
+    margin-top: 15px;
+    padding: 10px;
+}
+.project1 h1,.heading h1{
+    margin-left: 5px;
+}
+.services{
+    flex-direction: column;
+    height: 300vh;
+}
+.services>div{
+    width: 100vw;
+    height: 40%;
+    margin-left: 0;
+}
+.about{
+    flex-direction: column;
+    height: 150vh;
+}
+.info{
+    background-color: rgb(11, 6, 56);
+}
+.info p{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.about>div{
+    width: 100vw;
+    background-color: red;
+    height: 300vh;
+}
+.about>div:first-of-type{
+    height: 400vh;
+}
+.about>div:first-of-type button{
+    margin-left: -30px
+}
+.about>div:first-of-type>p{
+    margin-left: -15px;
+}
+.about>div:last-of-type{
+    width: 100vw;
+}
+.reviews>div{
+    background-color: #041562;
+    margin-left: 0;
+    width: 100vw;
+}
+.reviews>div>h1{
+    color: white;
+    margin-left: 10%;
+}
+.reviews>div>h2{
+    color: white;
+    margin-left: 10%;
+    color: white;
+}
+.reviews>div img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+
+}
+.reviews>div>button:first-of-type{
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+.reviews>div>button:last-of-type{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.reviews>div p{
+    color: white;
+
+    font-size: 20px;
+    margin-left: 10%;
+
+}
+.reviews{
+    background-color: aqua;
+    height: 100vh;
+}
+.edit{
+    width: 100vw;
+}
+.reviews>div>button{
+    margin-left: 0%;
+}
+.review1 h1{
+    margin-left: -250px;
+}
+.edit{
+    background-color: red;
+}
+
+.body{
+background-image: url("direction2.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 90vh;
+overflow: hidden;
+}
+.contactsfooter{ 
+background-color: rgb(14, 7, 39);
+display: flex;
+height: auto;
+flex-direction: column;
+}
+.contactsfooter>div{
+width: 100vw;
+margin-left: 0;
+}
+.contactsfooter>div:first-of-type{
+width: 100vw;
+height: 45vh;
+}
+.social{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+height: 40%;
+align-items: center;
+}
+.social a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.linkz{
+background-color: aqua;
+display: flex;
+
+}
+.linkz a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.info{
+height: 60%;
+}
+.info{
+text-align: center;
+font-size: 20px;
+}
+.contactsfooter>div:last-of-type{
+width: 100vw;
+height: auto;
+}
+.contactsfooter>div:last-of-type form{
+width: 100%;
+height: 100%;
+}
+input,textarea{
+width: 90%;
+margin-left: 10px;
+font-size: 23px;
+padding: 8px;
+margin-top: 20px;
+}
+input[type=submit]{
+margin-bottom: 10px;     
+}
+.backtotop{
+padding: 20px;
+}
+
+
+
+
+
+
+
+}

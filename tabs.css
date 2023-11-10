@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ h1,p:first-of-type{
+    text-align: center;
+    margin-top: 5%;
+ }
+
+ .About{
+    width: 100vw;
+    height: 200vh;
+    float: right;
+    background-color: red;
+   display: flex;
+   flex-direction: column;
+     }
+     .About button{
+      height: 50px;
+     }
+     .button{
+      display: flex;
+      background-color: blue; 
+      padding: 10px;
+   
+   }
+   .button button{
+      padding: 10px;
+        width: 100px;
+         margin-right: 30px;
+
+     }
+     .button button:first-of-type{
+         margin-left: 40%;
+     }
+ .right button{
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+ }
+ .about-content{
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#office,#homes,#resturant{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   height: 200vh;
+   background-color: red;
+   margin-top: 30px;
+   margin-left: 230px;
+}
+#office img{
+   margin-right: 40px;
+      width: 400px;
+      height: 400px;
+   
+}
+#homes{
+   display: none;
+}
+#resturant{
+   display: none;
+}
+#resturant img{
+   margin-right: 40px;
+      width: 400px;
+      height: 400px;
+   
+}
+#homes img{
+   margin-right: 40px;
+      width: 400px;
+      height: 400px;
+   
+}
+
+.content{
+    display: none;
+}
+
+.active{
+    background-color: white;
+    color: green;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  
+.links{
+   width: 100%;
+   flex-direction: column;
+   height: 100vh;
+   position: absolute;
+   display: none;
+   margin-top: 100px;
+   position: fixed!important
+   
+   }
+   .logo{
+   margin-left: 0;
+   width: 100%;
+   flex-direction: row;
+   justify-content: space-evenly;
+   }
+   .logo button{
+   margin-left: 40vw;
+   display: block;
+   float: right;
+   }
+   .show{
+   display: flex;
+   }
+      .button{
+         background-color: gray;
+      }
+      .button button{
+         width: 25vw;
+      }
+      .button button:first-of-type{
+         margin-left: 10px;
+      }
+      .About{
+         height: 550vh;
+      }
+      #office img{
+         width: 100vw;
+         margin-right: 0;
+         margin-bottom: 5px;
+      }
+     
+      #office,#homes,#resturant{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         height: 550vh;
+         overflow: hidden;
+         background-color: red;
+         margin-top: 30px;
+         margin-left: 0px;
+      }
+
+.contactsfooter{ 
+   background-color: rgb(14, 7, 39);
+   display: flex;
+   height: auto;
+   flex-direction: column;
+   }
+   .contactsfooter>div{
+   width: 100vw;
+   margin-left: 0;
+   }
+   .contactsfooter>div:first-of-type{
+   width: 100vw;
+   height: 45vh;
+   }
+   .social{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: 40%;
+   align-items: center;
+   }
+   .social a{
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+   align-self: center;
+   font-size: 27px;
+   }
+   .linkz{
+   background-color: aqua;
+   display: flex;
+   
+   }
+   .linkz a{
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+   align-self: center;
+   font-size: 27px;
+   }
+   .info{
+   height: 60%;
+   }
+   .info{
+   text-align: center;
+   font-size: 20px;
+   }
+   .contactsfooter>div:last-of-type{
+   width: 100vw;
+   height: auto;
+   }
+   .contactsfooter>div:last-of-type form{
+   width: 100%;
+   height: 100%;
+   }
+   input,textarea{
+   width: 90%;
+   margin-left: 10px;
+   font-size: 23px;
+   padding: 8px;
+   margin-top: 20px;
+   }
+   input[type=submit]{
+   margin-bottom: 10px;     
+   }
+   .backtotop{
+   padding: 20px;
+   }
+}

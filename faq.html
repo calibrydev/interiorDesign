@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FAQ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            .nav{
+                background-color: rgb(245, 247, 245);
+                width: 100vw;
+                height: 100px;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .links{
+                /* background-color: red; */
+                height: 100%;
+                width: 60%;
+                display: flex;
+                flex-direction: row;
+                align-items: center; 
+
+            }
+            .links a{
+                text-decoration: none;
+                color: white;
+                margin: 10px;
+                align-self: center;
+                font-size: 27px;
+            }
+            .logo{
+                /* background-color: yellow; */
+                height: 100%;
+                width: 40%;
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+            }
+            .logo button{
+                display: none;
+            }
+            .logo h1{
+                margin-left: 20px;
+                font-size: 2.2rem;
+                font-weight: bolder;
+            }
+            .links a{    
+                color: black;
+                align-self: center;
+                text-decoration: none;
+                margin: 10px;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                align-self: center;
+                font-size: 27px;
+            }
+        .nav{
+            width: 100vw;
+            height: 100px;
+        }
+        .head{
+            text-align: center;
+        }
+            .Mother{
+                display:flex;
+                flex-direction: column;
+                height: auto;
+                width: 100vw;
+                background-color: aqua;
+            }
+            .Mother>div{
+                margin-left: 15%;
+                background-color: #d2cccc;
+                color:#fff;
+                font-size: 30px;
+                text-align: center;
+                padding: 20px;
+                width: 70vw;
+                height: auto;
+                margin-bottom: 10px;
+            }
+            .contactsfooter{
+                background-color: rgb(7, 26, 77);
+                width: 100vw;
+                height: 50vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            .contactsfooter>div{
+                margin-left: 40px ;
+                margin-bottom: 30px;
+                width: 30%;
+                height: 46vh;
+            }
+            .contact1{
+            }
+            .social{
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+            }
+            .social a{
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                font-size: 30px;
+            }
+            .info{
+                padding: 14px;
+                height: 30vh;
+                color: white;
+            }
+            .info p{
+                font-size: 20px;
+                padding: 15px;
+            }
+            .contact2{
+                height: 48vh;
+            }
+            .contact2 form{
+                display: flex;
+                flex-direction: column;
+            }  
+            .contact2 form input,textarea{
+                width: 80%;
+                margin-bottom: 10px;
+                padding: 10px;
+                font-size: 19px;
+            }.backtotop{
+                background-color: green;
+                height: 10vh;
+                margin-top: 20vh;padding: 20px;
+            }
+            
+@media only screen and (max-width: 600px) {
+    
+    .links{
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    margin-top: 100px;
+    position: fixed!important
+    
+    }
+    .logo{
+    margin-left: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+    .logo button{
+    margin-left: 40vw;
+    display: block;
+    float: right;
+    }
+    .show{
+    display: flex;
+    }
+    .Mother{
+        width: 100vw;
+        height: auto;
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    .Mother>div{
+        margin-left: 0;
+        width: 88%;
+        height: auto;
+    }           
+    .Mother>div p{
+        font-size: 1.3rem;
+        margin-left: 4px;
+        margin-right: 3px;
+    
+    }
+    .head{
+        font-size: 2rem;
+    margin-left: 3px;
+        text-align: center;
+}
+                    
+.contactsfooter{ 
+background-color: rgb(14, 7, 39);
+display: flex;
+height: auto;
+flex-direction: column;
+}
+.contactsfooter>div{
+width: 100vw;
+margin-left: 0;
+}
+.contactsfooter>div:first-of-type{
+width: 100vw;
+height: 45vh;
+}
+.social{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+height: 40%;
+align-items: center;
+}
+.social a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.linkz{
+background-color: aqua;
+display: flex;
+
+}
+.linkz a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.info{
+height: 60%;
+}
+.info{
+text-align: center;
+font-size: 20px;
+}
+.contactsfooter>div:last-of-type{
+width: 100vw;
+height: auto;
+}
+.contactsfooter>div:last-of-type form{
+width: 100%;
+height: 100%;
+}
+input,textarea{
+width: 90%;
+margin-left: 10px;
+font-size: 23px;
+padding: 8px;
+margin-top: 20px;
+}
+input[type=submit]{
+margin-bottom: 10px;     
+}
+.backtotop{
+padding: 20px;
+}
+
+}
+        </style>
+    </head>
+    <body>
+        <div id="nav" class="nav">
+            <div id="links" class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">Projects</a>
+
+                <a href="#"> Contacts</a>
+            </div>
+            <div class="logo" id="Logo">
+                <h1>Staarab</h1>
+                <button id="Open">  <i class="fa fa-navicon" style="font-size:36px"></i> </button>
+            </div>
+        </div><br>
+
+        <h1 class="head">Frequently Asked Questions</h1>
+        <div class="Mother">
+            <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div>
+            <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div> <div class="#">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </p>
+            </div>
+        </div>
+        <div class="contactsfooter">
+            <div class="contact1">    
+                <div class="social">
+                    <a href="#">fb</a><a href="#">ig</a><a href="#">yb</a><a href="#">ff</a>
+
+                 
+
+                </div>
+                          <div class="info">
+
+                        
+                        
+                        <p>Tel:0743958394</p>
+                            <p>ADDRESS:NAIROBI KENYA.</p>
+                                <p> EMAIL@GMAIL>COM</p>
+                                </div>
+               
+
+            </div>
+         
+            <div class="contact2"> 
+
+            <form action="">
+                <input type="email" placeholder="email">
+                <textarea name="Text" id="textArea" placeholder="SEND A MESSAGE" cols="30" rows="10"></textarea>
+                <input type="submit" name="Submit" value="Submit">
+            </form>    
+            
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

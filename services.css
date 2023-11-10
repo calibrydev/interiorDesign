@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.nav{
+    background-color: rgb(245, 247, 245);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.links{
+    /* background-color: red; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    align-self: center;
+    font-size: 27px;
+}
+.logo{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.logo button{
+    display: none;
+}
+.logo h1{
+    margin-left: 20px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.links a{
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    font-size: 27px;
+}
+.nav{
+width: 100vw;
+height: 100px;
+}
+.nav{
+    width: 100vw;
+    height: 100px;
+}
+.main{
+    height: 70vh;
+    background-image: url('george-kantartzis-AuJs4nKQj0Y-unsplash.jpg');
+    background-size: cover;
+}
+.services{
+    background-color: rgb(36, 36, 150);
+    width: 100vw;
+    height: 180vh; 
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services>div{
+    background-color: white;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 600px;
+}
+.services>div img{
+    width: 100%;
+    height: 50%;
+}
+.services>div h1{
+    text-align: center;
+}
+.services>div p{
+    text-align: center;
+    font-size: 19px;
+}
+.services>div button{
+    padding: 10px;
+    margin-left: 30%;
+    width: 150px;
+}
+.footer{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer>div{
+    background-color: white;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 30%;
+}
+.review{
+    background-color: rgb(237, 237, 237);
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.review ol{
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.review ol li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.review>div{
+    background-color: white;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 60%;
+}
+.review>div img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+.review>div h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.review>div p{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.review>div button{
+    padding: 10px;
+    width: 140px;
+    margin-left: 140px;
+}
+.review>div button:first-of-type{
+    margin-left: 30%;
+}
+
+.contactsfooter{
+    background-color: rgb(7, 26, 77);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contactsfooter>div{
+    margin-left: 40px ;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 46vh;
+}
+.contact1{
+}
+.reviews ol li{
+    font-size: 20px;
+}
+.social{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.social a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.info{
+    padding: 14px;
+    height: 30vh;
+    color: white;
+}
+.info p{
+    font-size: 20px;
+    padding: 15px;
+}
+.contact2{
+    height: 48vh;
+}
+.contact2 form{
+    display: flex;
+    flex-direction: column;
+}
+.contact2 form input,textarea{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 19px;
+}.backtotop{
+    background-color: green;
+    height: 10vh;
+    margin-top: 20vh;padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+             
+.links{
+width: 100%;
+flex-direction: column;
+height: 100vh;
+position: absolute;
+display: none;
+margin-top: 100px;
+position: fixed!important
+
+}
+.logo{
+margin-left: 0;
+width: 100%;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.logo button{
+margin-left: 40vw;
+display: block;
+float: right;
+}
+.show{
+display: flex;
+}
+.Cbox{
+background-color: rgb(174, 190, 35);
+height: 175vh;
+}
+.parent{
+flex-direction: column;
+width: 80%;
+height: 153vh;
+}
+.left{
+width: 100%;
+height: 50%;
+margin-bottom: 10px;
+}
+.left img{
+height: 70%;
+}
+.right{
+height: 50%;
+width: 100%;
+}
+form{
+width: 100%;
+height: 100%;
+background-color: cadetblue;
+}
+input,textarea{
+width: 90%;
+margin-bottom: 10px;
+}
+.right h1{
+margin-bottom: 5px;
+}
+
+
+.review{
+height: 100vh;
+}
+.review ol{
+    background-color: beige;
+margin-top: 80px;
+margin-left: -190px;
+}
+.review ol li{
+margin-left: 10px;
+}
+.review h1{
+    width: 170vw;
+margin-left: 10px;
+}
+.services{
+height: 840vh;
+}
+.services>div{
+width: 100vw;
+height: 130vh;
+margin-left: 0;
+}
+
+
+
+
+
+
+
+
+    .contactsfooter{ 
+background-color: rgb(14, 7, 39);
+display: flex;
+height: auto;
+flex-direction: column;
+}
+.contactsfooter>div{
+width: 100vw;
+margin-left: 0;
+}
+.contactsfooter>div:first-of-type{
+width: 100vw;
+height: 55vh;
+overflow: hidden;
+}
+.social{
+display: flex;
+flex-direction: row;
+overflow: hidden;
+justify-content: space-evenly;
+height: 40%;
+align-items: center;
+}
+.social a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.linkz{
+background-color: aqua;
+display: flex;
+
+}
+.linkz a{
+text-decoration: none;
+color: white;
+margin: 10px;
+align-self: center;
+font-size: 27px;
+}
+.info{
+height: 60%;
+}
+.info{
+text-align: center;
+font-size: 20px;
+}
+.contactsfooter>div:last-of-type{
+width: 100vw;
+height: auto;
+}
+.contactsfooter>div:last-of-type form{
+width: 100%;
+height: 100%;
+}
+input,textarea{
+width: 90%;
+margin-left: 10px;
+font-size: 23px;
+padding: 8px;
+margin-top: 20px;
+}
+input[type=submit]{
+margin-bottom: 10px;     
+}
+.backtotop{
+padding: 20px;
+}
+
+
+}
