@@ -447,7 +447,7 @@ display: flex;
     width: 100vw;
     margin-left: 0px;
     height: 30vh;
-    margin-top: 190px;
+    margin-top: 30vh;
 }
 .contentmiddle h1{
     font-size: 1.4rem
@@ -458,7 +458,7 @@ display: flex;
     height: 400vh;
 }
 .projects>div{
-    width: 100vw;
+    width: 95vw;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -526,9 +526,10 @@ display: flex;
     color: white;
     margin-left: 10%;
     color: white;
+    font-size: 1.5rem;
 }
 .reviews>div img{
-    width: 100px;
+    width: 130px;
     height: 130px;
     margin-left: 37%;
     margin-top: 20px;
@@ -638,12 +639,14 @@ height: 100%;
 input,textarea{
 width: 90%;
 margin-left: 10px;
+margin-right: 10px;
 font-size: 23px;
 padding: 8px;
 margin-top: 20px;
 }
 input[type=submit]{
-margin-bottom: 10px;     
+margin-bottom: 10px;
+margin-left: 20px;     
 }
 .backtotop{
 padding: 20px;
