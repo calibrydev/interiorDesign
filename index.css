@@ -210,6 +210,7 @@
     margin-top: 3%;
 }
 .services>div h1{
+    font-size: 3vh;
     margin-top: 3%;
 }
 .about{
@@ -274,12 +275,12 @@
     padding: 20px;
     font-size: 18px;
     margin-top: 20px;
-    margin-right: 160px;                
+    margin-right: 230px;                
     margin-bottom: 30px;
 }
 .review1 h1{
     text-align: center;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .review1 h2{
     font-size: 30px;
