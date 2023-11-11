@@ -459,7 +459,8 @@ display: flex;
 }
 .projects>div{
     width: 100vw;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .projects>div:last-of-type{
     margin-bottom: 0;
@@ -496,8 +497,8 @@ display: flex;
 }
 .about>div{
     width: 100vw;
-    background-color: red;
-    height: 300vh;
+    background-color: rgb(255, 255, 255);
+    height: 200vh;
 }
 .about>div:first-of-type{
     height: 400vh;
@@ -519,6 +520,7 @@ display: flex;
 .reviews>div>h1{
     color: white;
     margin-left: 10%;
+    font-size: 2rem;
 }
 .reviews>div>h2{
     color: white;
@@ -527,15 +529,15 @@ display: flex;
 }
 .reviews>div img{
     width: 100px;
-    height: 100px;
-    margin-left: 40%;
+    height: 130px;
+    margin-left: 37%;
     margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 50%;
 
 }
 .reviews>div>button:first-of-type{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 0;
     margin-top: 30px;
 }
