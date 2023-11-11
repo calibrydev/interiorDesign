@@ -153,13 +153,70 @@
     margin-top: 2%;
 }
 .projects{
-    background-color:#FEF9EF;
     width: 100vw;
     height: 120vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.project1{
+    background-image: url("spacejoy-h2_3dL9yLpU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.project2{
+    background-image: url("pexels-ilya-shakir-2440471.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project3{
+    background-image: url("pexels-vecislavas-popa-1571458.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.project4{
+    background-image: url("pexels-terry-magallanes-2988860.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project0{
+    background-color: white;
+}
+.project5{
+    background-image: url("pexels-jean-van-der-meulen-1457845.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.project6{
+    background-image: url("pexels-m&w-studios-90319.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.project0 h1,.heading h1{
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project0{
+    background-color: #FFFBF5;
+    width: 100vw;
+
+}
+.project0 button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 48%;
+    margin-top: 1%;
+border-radius: 10px;
+    color: black;
+    background-color:#EAEDD1 ;
+}
+
+
 .projects>div{
     background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg");
     height: 50vh;
