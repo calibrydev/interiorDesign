@@ -251,15 +251,16 @@
 .reviews{
     background-color: rgb(248, 252, 248);
     width: 100vw;
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .reviews>div{
-    background-color: rgb(245, 238, 238);
+    background-color: rgb(244, 240, 240);
     margin-bottom: 30px;
     width: 70%;
+    height: auto;
 }
 .review1 img{
     width: 200px;
@@ -274,6 +275,7 @@
     font-size: 18px;
     margin-top: 20px;
     margin-right: 300px;                
+    margin-bottom: 30px;
 }
 .review1 h1{
     text-align: center;
