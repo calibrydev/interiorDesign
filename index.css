@@ -72,7 +72,7 @@
 .contentmiddle{
     background-color: rgb(249, 252, 252);
     width: 30vw;
-    height: 25vh;
+    height: 28vh;
     margin-left: 37%;
     margin-top:29%;
     display: flex;
@@ -81,9 +81,9 @@
     align-items: center;
 }
 .contentmiddle h1{
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contentmiddle button{
     background-color: red;
