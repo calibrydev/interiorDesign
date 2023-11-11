@@ -347,6 +347,7 @@
 }.backtotop{
     background-color: green;
     height: 10vh;
+    overflow: hidden;
     margin-top: 20vh;padding: 20px;
 }
 @media only screen and (max-width: 600px) {
