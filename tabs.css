@@ -110,7 +110,7 @@ height: 100px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   width
+   width:90vw;
    height: 330vh;
    background-color: red;
    margin-top: 30px;
