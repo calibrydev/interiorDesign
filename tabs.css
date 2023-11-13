@@ -110,9 +110,8 @@ height: 100px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   width:70vw;
+   width:66vw;
    height: 360vh;
-   background-color: red;
    margin-top: 20px;
    margin-left: 280px;
 }
