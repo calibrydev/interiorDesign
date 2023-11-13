@@ -39,6 +39,9 @@
     width: 100px;
     height: 50px;
  }
+ .project{
+   height: 120vh;
+ }
  .about-content{
     background-color: green;
     height: 100vh;
@@ -88,7 +91,76 @@
     color: green;
     display: block;
 }
+.contactsfooter{
+   background-color: rgb(7, 26, 77);
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.contactsfooter>div{
+   margin-left: 40px ;
+   margin-bottom: 30px;
+   width: 30%;
+   height: 46vh;
+}
+.contact1{
+}
+.social{
+   height: 10vh;
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+}
+.social a{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+}
+.info{
+   padding: 14px;
+   height: 30vh;
+   color: white;
+}
+.info p{
+   font-size: 20px;
+   padding: 15px;
+}
+.contact2{
+   height: 48vh;
+}
+.contact2 form{
+   display: flex;
+   flex-direction: column;
+}  
+.contact2 form input,textarea{
+   width: 80%;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 19px;
+}.backtotop{
+   background-color: green;
+   height: 10vh;
+   margin-top: 20vh;padding: 20px;
+}
+.grid{
+   width: 100vw;
+   height: 400vh;
+   background-color: blue;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.child{
 
+   padding-bottom: 10px;
+   width: 500px;
+   height: 600px;
+   background-image: url('alex-zeng-vPIbf9XXnJA-unsplash.jpg');
+}
 @media only screen and (max-width: 600px) {
   
 .links{
@@ -132,9 +204,14 @@
          margin-right: 0;
          margin-bottom: 5px;
       }
-     
-      #office,#homes,#resturant{
-         display: flex;
+     #office{
+      display: flex;
+
+     }
+#homes,#resturant{
+   display: none;
+}
+     #office,#homes,#resturant{
          flex-direction: row;
          flex-wrap: wrap;
          height: 550vh;
@@ -144,72 +221,109 @@
          margin-left: 0px;
       }
 
-.contactsfooter{ 
-   background-color: rgb(14, 7, 39);
-   display: flex;
-   height: auto;
-   flex-direction: column;
-   }
-   .contactsfooter>div{
-   width: 100vw;
-   margin-left: 0;
-   }
-   .contactsfooter>div:first-of-type{
-   width: 100vw;
-   height: 45vh;
-   }
-   .social{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   height: 40%;
-   align-items: center;
-   }
-   .social a{
-   text-decoration: none;
-   color: white;
-   margin: 10px;
-   align-self: center;
-   font-size: 27px;
-   }
-   .linkz{
-   background-color: aqua;
-   display: flex;
-   
-   }
-   .linkz a{
-   text-decoration: none;
-   color: white;
-   margin: 10px;
-   align-self: center;
-   font-size: 27px;
-   }
-   .info{
-   height: 60%;
-   }
-   .info{
-   text-align: center;
-   font-size: 20px;
-   }
-   .contactsfooter>div:last-of-type{
-   width: 100vw;
-   height: auto;
-   }
-   .contactsfooter>div:last-of-type form{
-   width: 100%;
-   height: 100%;
-   }
-   input,textarea{
-   width: 90%;
-   margin-left: 10px;
-   font-size: 23px;
-   padding: 8px;
-   margin-top: 20px;
-   }
-   input[type=submit]{
-   margin-bottom: 10px;     
-   }
-   .backtotop{
-   padding: 20px;
-   }
+      .contactsfooter{
+         display: flex;
+         flex-direction: column;
+     }
+ 
+ 
+                   
+     .contactsfooter{ 
+         background-color: rgb(14, 7, 39);
+         display: flex;
+         height: auto;
+         flex-direction: column;
+         }
+         .contactsfooter>div{
+         width: 100vw;
+         margin-left: 0;
+         }
+         .contactsfooter>div:first-of-type{
+         width: 100vw;
+         height: 45vh;
+         overflow: hidden;
+         }
+         .social{
+         display: flex;
+         flex-direction: row; 
+         justify-content: space-evenly;
+         height: 40%;
+         overflow: hidden;
+         align-items: center;
+         }
+         .social a{
+         text-decoration: none;
+         color: white;
+         margin: 10px;
+         align-self: center;
+         font-size: 27px;
+         }
+         .linkz{
+         background-color: aqua;
+         display: flex;
+         
+         }
+         .linkz a{
+         text-decoration: none;
+         color: white;
+         margin: 10px;
+         align-self: center;
+         font-size: 27px;
+         }
+         .info{
+         height: 60%;
+         }
+         .info{
+         text-align: center;
+         font-size: 20px;
+         }
+         .contactsfooter>div:last-of-type{
+         width: 100vw;
+         height: auto;
+         }
+         .contactsfooter>div:last-of-type form{
+         width: 90%;
+         background-color: red;
+         height: 100%;
+         margin-left: 20px;
+         margin-right: 10px;
+         }
+         .contactsfooter>div:last-of-type form input{
+             width: 90%;
+             margin-left: 10px;
+ 
+             word-wrap: break-word;
+         }
+         textarea{
+             width: 90%;
+             margin-left: 10px;
+         }
+         input,textarea{
+         font-size: 23px;
+         padding: 8px;
+         word-wrap: break-word;
+         margin-top: 20px;
+         }
+         input[type=submit]{
+         margin-bottom: 10px;     
+         width: 115%;
+         }
+         input[type=email]{
+         margin-bottom: 10px;    
+         width: 135%; 
+         }
+         .backtotop{
+         padding: 20px;
+         }
+ 
+ 
+
+
+
+
+
+
+
+
+
 }
