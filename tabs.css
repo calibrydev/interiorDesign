@@ -110,10 +110,10 @@ height: 100px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   height: 200vh;
+   height: 250vh;
    background-color: red;
    margin-top: 30px;
-   margin-left: 230px;
+   margin-left: 130px;
 }
 #office img{
    margin-right: 40px;
