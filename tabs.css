@@ -113,7 +113,8 @@ height: 100px;
    width:70vw;
    height: 360vh;
    margin-top: 20px;
-   margin-left: 280px;
+   background-color: transparent;
+   margin-left: 260px;
 }
 #office img{
    margin-right: 40px;
@@ -145,7 +146,6 @@ height: 100px;
 }
 
 .active{
-    background-color: white;
     color: green;
     display: block;
 }
