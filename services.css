@@ -285,7 +285,7 @@ height: 100vh;
 .review ol{
     background-color: beige;
 margin-top: 60px;
-margin-left: -230px;
+margin-left: -330px;
 }
 .review ol li{
 margin-left: 10px;
@@ -304,84 +304,91 @@ margin-left: 0;
 }
 
 
+    .contactsfooter{
+        display: flex;
+        flex-direction: column;
+    }
 
-.contactsfooter>div{
-    width: 100vw;
-    margin-left: 0;
-    }
-    .contactsfooter>div:first-of-type{
-    width: 100vw;
-    height: 45vh;
-    }
-    .social{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 40%;
-    align-items: center;
-    }
-    .social a{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    align-self: center;
-    font-size: 27px;
-    }
-    .linkz{
-    background-color: aqua;
-    display: flex;
-    
-    }
-    .linkz a{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    align-self: center;
-    font-size: 27px;
-    }
-    .info{
-    height: 60%;
-    }
-    .info{
-    text-align: center;
-    font-size: 20px;
-    }
-    .contactsfooter>div:last-of-type{
-    width: 100vw;
-    height: auto;
-    }
-    .contactsfooter>div:last-of-type form{
-    width: 100%;
-    height: 100%;
-    }
-    input[type=email]{
+
+                  
+    .contactsfooter{ 
+        background-color: rgb(14, 7, 39);
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        }
+        .contactsfooter>div{
+        width: 100vw;
+        margin-left: 0;
+        }
+        .contactsfooter>div:first-of-type{
+        width: 100vw;
+        height: 45vh;
+        }
+        .social{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        height: 40%;
+        overflow: hidden;
+        align-items: center;
+        }
+        .social a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        align-self: center;
+        font-size: 27px;
+        }
+        .linkz{
+        background-color: aqua;
+        display: flex;
+        
+        }
+        .linkz a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        align-self: center;
+        font-size: 27px;
+        }
+        .info{
+        height: 60%;
+        }
+        .info{
+        text-align: center;
+        font-size: 20px;
+        }
+        .contactsfooter>div:last-of-type{
+        width: 100vw;
+        height: auto;
+        }
+        .contactsfooter>div:last-of-type form{
+        width: 90%;
+        background-color: red;
+        height: 100%;
         margin-left: 20px;
-        width: 88vw;
-    }
-    input,textarea{
-    width: 86vw;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 23px;
-    padding: 8px;
-    margin-top: 20px;
-    }
-    input[type=submit]{
-    margin-bottom: 10px;
-    margin-left: 35px;     
-    }
-    .backtotop{
-    padding: 20px;
-    }
-    
-
-
-
-
-
-
-
-
+        margin-right: 10px;
+        }
+        textarea{
+            width: 1100%;
+        }
+        input,textarea{
+        font-size: 23px;
+        padding: 8px;
+        margin-top: 20px;
+        }
+        input[type=submit]{
+        margin-bottom: 10px;     
+        width: 115%;
+        }
+        input[type=email]{
+        margin-bottom: 10px;    
+        width: 115%; 
+        }
+        .backtotop{
+        padding: 20px;
+        }
 
 
 
