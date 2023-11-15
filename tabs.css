@@ -101,8 +101,8 @@ height: 100px;
    height: 120vh;
  }
  .about-content{
-    background-color: green;
-    height: 100vh;
+   background-color: white;
+    height: 105vh;
     width: 100%;
     position: relative;
 }
