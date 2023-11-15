@@ -306,7 +306,7 @@ border-radius: 10px;
     margin-top: 6%;
 }
 .about .image{
-    background-image: url("george-kantartzis-AuJs4nKQj0Y-unsplash.jpg");
+    background-image: url("krisztian-tabori-IyaNci0CyRk-unsplash.jpg");
     width: 60%;
     height: 90%;
 }
@@ -380,6 +380,7 @@ border-radius: 10px;
     overflow: hidden;
 }
 .social a{
+    overflow: hidden;
     padding: 10px;
     text-decoration: none;
     color: white;
