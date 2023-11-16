@@ -225,7 +225,7 @@
             }
             .logos{
                 width: 60%;
-                background-color: rgb(243, 245, 240);
+                background-color: rgb(255, 255, 255);
                 display: flex;
                 flex-direction: row;
                 overflow: hidden;
@@ -281,6 +281,7 @@
                 height: 50vh;
                 display: flex;
                 flex-direction: row;
+                overflow: hidden;
                 justify-content: space-evenly;
             }
             .contactsfooter>div{
@@ -319,17 +320,23 @@
             .contact2 form{
                 display: flex;
                 flex-direction: column;
+                overflow: hidden;
             }
             .contact2 form input,textarea{
                 width: 80%;
                 margin-bottom: 10px;
                 padding: 10px;
+                overflow: hidden;
                 font-size: 19px;
             }.backtotop{
                 background-color: green;
                 height: 10vh;
                 margin-top: 20vh;padding: 20px;
                 overflow: hidden;
+            }
+            .titleteam h1{
+                text-align: center;
+                margin-left: 10px;
             }
 
 @media only screen and (max-width: 600px) {
@@ -359,6 +366,7 @@
     .show{
     display: flex;
     }
+  
                 .Header{
                     flex-direction: column;
                     height: 220vh;
