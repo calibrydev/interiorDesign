@@ -143,14 +143,15 @@
             <!-- use one div for the review use javascript instead of php-->
             <div class="review1  edit">
                 <h1>Reviews</h1>
-                <img src="alex-zeng-vPIbf9XXnJA-unsplash.jpg" alt="">
+                <img id="personImgs" src="alex-zeng-vPIbf9XXnJA-unsplash.jpg" alt="">
 
-                <h2>Mark Mwaura - CEO Falme </h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aliquid?<br>
+                <h2 id="Author" >Mark Mwaura - <b id="Job"> CEO Falme </b> </h2>
+                <p id="Infoz">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aliquid?<br>
                     Lorem ipsum, dolor sit amet consectetur adipisicing eliLorem ipsum,
                      dolor <br> sit amet consectetur adipisicing eli
-                </p>
-                <button>Next</button><button>Prev</button>
+                </p> 
+                <button id="Random">Random</button>
+                <button id="Next" >Next</button><button id="Prev">Prev</button>
             </div>
             <!-- <div class="review2"></div> -->
             <!-- <div class="review3"></div> -->
@@ -194,6 +195,79 @@
                 document.getElementById("nav").style.position="fixed";
                 document.body.scroll="no";
             }
+
+
+
+
+            const reviews=[
+    {
+        img:"two.jpg",
+        info:"i like this firm alot is is so proffesional",
+        job:"Web Developer" ,
+        name:"Mark Mwaura",       
+    },
+    {
+        img:"three.jpg",
+        info:"i like this firm alot is is so proffesional",
+        job:"Android Developer" ,
+        name:"Mark Green",       
+    },
+    {
+        img:"first.jpg",
+        info:"i like this firm alot is is so proffesional",
+        job:"Designer" ,
+        name:"Suzan White",       
+    },
+
+]; 
+
+const img=document.getElementById("personImgs");
+const author=document.getElementById("Author");
+const job=document.getElementById("Job");
+const info=document.getElementById("Infoz");
+
+const prevBtn=document.querySelector("#Prev");
+const nextBtn=document.querySelector("#Next");
+const randomBtn=document.querySelector("#Random");
+
+let position=0; 
+
+    window.addEventListener('DOMContentLoaded',()=>{
+        showReview();
+    });
+    function showReview(){
+        let revyu=reviews[position];
+        img.src=revyu.img;
+        author.textContent=revyu.name;
+        info.textContent=revyu.info;
+        job.textContent=revyu.job;
+
+    }
+
+        nextBtn.addEventListener('click',()=>{
+            position++;
+            showReview();
+        })
+        prevBtn.addEventListener('click',()=>{
+            position--;
+            showReview();
+        })
+        randomBtn.addEventListener('click',()=>{
+            position=Math.floor(Math.random()*reviews.length);
+            showReview();
+        })
+
+
+
+
+
+
+
+
+
+
+
+
         </script>
     </body>
 </html>
