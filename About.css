@@ -119,22 +119,26 @@
             .Header{
                 background-color: aqua;
                 width: 100vw;
-                height: 65vh;
+                height: 85vh;
                 display: flex;
                 flex-direction: row;
             }
             .left{
                 width: 50%;
                 overflow: hidden;
+                height: 100%;
+
                 background-color: green;
             }
             .right{
                 width: 50%;
+                height: 100%;
                 background-color: rgb(251, 247, 247);
             }
             .journey{
                 background-color: rgb(255, 255, 255);
                 width: 100vw;
+                overflow:hidden;
                 height: 150vh;
             }
             .current{
@@ -215,8 +219,8 @@
                 flex-direction: column;
                 padding: 10px;
             }
-            .awards ol li:first-of-type{
-            }
+            /* .awards ol li:first-of-type{ */
+            /* } */
             .awards ol li{
                 padding-right: 10px;
                 font-size: 30px;
@@ -290,8 +294,6 @@
                 width: 30%;
          
          overflow: hidden;       height: 46vh;
-            }
-            .contact1{
             }
             .social{
                 height: 10vh;
@@ -593,7 +595,7 @@
             }
             .contact2 form{
                 display: flex;
-                margin-left 90px;
+                margin-left: 90px;
 
                 flex-direction: column;
             }
