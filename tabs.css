@@ -258,6 +258,10 @@ background-color: white;
       }
       .About{
          height: 550vh;
+         width: 98vw;
+         margin-left: 10px;
+         margin-right: 10px;
+         background-color: white;
       }
       #office img{
          width: 100vw;
