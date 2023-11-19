@@ -11,6 +11,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
          
 
@@ -167,6 +169,15 @@
         </div>
         <button class="backtotop">Back to top  </button>
         </div>
-        <script src="" async defer></script>
+        <script>
+             let button=document.getElementById("Open");
+            let links=document.getElementById("links");
+            button.onclick= function () {
+                links.classList.toggle("show");
+                document.getElementById("nav").style.position="fixed";
+                document.body.scroll="no";
+            }
+
+        </script>
     </body>
 </html>

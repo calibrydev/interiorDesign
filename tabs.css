@@ -366,10 +366,11 @@ background-color: white;
          flex-wrap: wrap;
          height: 550vh;
          overflow: hidden;
-         width: 98vw;
+         width: 97vw;
          background-color: white;
          margin-top: 30px;
-         margin-left: 0px;
+         margin-left: 10px;
+         margin-right: 10px;
       }
 
       .contactsfooter{

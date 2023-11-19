@@ -453,6 +453,15 @@ padding: 20px;
 
 
 
-        <script src="" async defer></script>
+        <script>
+             let button=document.getElementById("Open");
+            let links=document.getElementById("links");
+            button.onclick= function () {
+                links.classList.toggle("show");
+                document.getElementById("nav").style.position="fixed";
+                document.body.scroll="no";
+            }
+
+        </script>
     </body>
 </html>
