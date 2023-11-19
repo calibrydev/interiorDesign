@@ -140,16 +140,18 @@
                 width: 100vw;
                 overflow:hidden;
                 height: 150vh;
+            } 
+            .journey>div{
+                box-shadow: 5px 5px 5px 5px #041562;
+                background-color: white;
             }
             .current{
-                background-color: rgb(119, 112, 112);
                 width: 75vw;
                 height: 30vh;
                 margin-left: 24vw; 
                 margin-bottom: 50px;
             }
             .breakthrough{
-                background-color: rgb(169, 169, 162);
                 width: 70vw;
                 margin-bottom: 50px;
 
@@ -157,7 +159,6 @@
                 height: 30vh;
             }
             .stable{
-                background-color: rgb(179, 175, 174);
                 width: 70vw;
                 margin-bottom: 50px;
 
@@ -165,7 +166,6 @@
                 margin-left: 35vw;
             }
             .start{
-                background-color: rgb(177, 169, 177);
                 width: 70vw;
                 margin-bottom: 50px;
 

@@ -159,6 +159,92 @@ background-color: white;
 .contactsfooter>div{
    margin-left: 40px ;
    margin-bottom: 30px;
+   width: 30%;
+   height: 46vh;
+   overflow: hidden;
+}
+.contact1{
+}
+.reviews ol li{
+   font-size: 20px;
+}
+.social{
+   height: 10vh;
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+}
+.social a{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+}
+.info{
+   padding: 14px;
+   height: 30vh;
+   color: white;
+}
+.info p{
+   font-size: 20px;
+   padding: 15px;
+}
+.contact2{
+   height: 48vh;
+}
+.contact2 form{
+   display: flex;
+   flex-direction: column;
+}
+.contact2 form input,textarea{
+   width: 80%;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 19px;
+}.backtotop{
+   background-color: green;
+   height: 10vh;
+   overflow: hidden;
+   margin-top: 20vh;padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.contactsfooter{
+   background-color: rgb(7, 26, 77);
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.contactsfooter>div{
+   margin-left: 40px ;
+   margin-bottom: 30px;
    overflow: hidden;
    width: 30%;
    height: 46vh;
@@ -219,7 +305,7 @@ background-color: white;
    width: 500px;
    height: 600px;
    background-image: url('alex-zeng-vPIbf9XXnJA-unsplash.jpg');
-}
+} */
 @media only screen and (max-width: 600px) {
              
 .links{
@@ -280,7 +366,8 @@ background-color: white;
          flex-wrap: wrap;
          height: 550vh;
          overflow: hidden;
-         background-color: red;
+         width: 98vw;
+         background-color: white;
          margin-top: 30px;
          margin-left: 0px;
       }
@@ -347,7 +434,7 @@ background-color: white;
          }
          .contactsfooter>div:last-of-type form{
          width: 90%;
-         background-color: red;
+         background-color:transparent;
          height: 100%;
          margin-left: 20px;
          margin-right: 10px;

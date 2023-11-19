@@ -62,7 +62,9 @@ height: 100px;
 }
 .main{
     height: 70vh;
-    background-image: url('george-kantartzis-AuJs4nKQj0Y-unsplash.jpg');
+    /* background-image: url('george-kantartzis-AuJs4nKQj0Y-unsplash.jpg'); */
+    background-image: url("pexels-vecislavas-popa-1571453.jpg");
+
     background-size: cover;
 }
 .services{
