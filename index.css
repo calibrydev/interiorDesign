@@ -159,8 +159,9 @@
 }
 .projects{
     width: 100vw;
-    height: 120vh;
+    height: 200vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -174,6 +175,7 @@
     background-image: url("pexels-ilya-shakir-2440471.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: 200px;
 }
 
 .project3{
@@ -223,10 +225,10 @@ border-radius: 10px;
 
 
 .projects>div{
-    height: 50vh;
+    height: 70vh;
     margin-left: 40px ;
     margin-bottom: 20px;
-    width: 30%;
+    width: 60%;
 }
 .projects>div:first-of-type{
    
