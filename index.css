@@ -38,6 +38,10 @@
 .logo button{
     display: none;
 }
+.logo h1 a img{
+    height: 65px;
+    width: 100px;
+}
 .logo h1{
     margin-left: 20px;
     font-size: 2.2rem;
@@ -245,7 +249,7 @@
     text-align: center;
 }
 .project0{
-    background-color: #f4f4f4;
+    background-color: transparent;
     width: 100vw;
     margin-top: -40px;
 
@@ -257,7 +261,12 @@
     margin-top: 1%;
 border-radius: 10px;
     color: black;
-    background-color:#EAEDD1 ;
+    background-color:#f4f4f4 ;
+}
+.project0 button>a{
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
 }
 .project3,.project4{
     width: 37%;
