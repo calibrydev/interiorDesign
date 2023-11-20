@@ -186,7 +186,7 @@
             </form>    
             
         </div>
-        <button class="backtotop">Back to top  </button>
+        <button class="backtotop" onclick="toTop()">Back to top  </button>
         </div>
         <script>
             let button=document.getElementById("Open");
@@ -277,6 +277,21 @@ let position=0;
             }
 
 
+            function toTop(){
+                //the documentElement targets the html while doc . body the body scrollTop means some height from the top 
+                if(document.body.scrollTop>80||document.documentElement.scrollTop>20){
+                    btn.style.display='block';
+                }
+                else{
+                    btn.style.display='none';
+
+                }
+            }
+          btn.addEventListener("click",()=>{
+            document.body.scrollTop=4;
+            document.documentElement.scrollTop=4;
+
+          })
 
 
 
