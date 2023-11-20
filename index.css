@@ -189,7 +189,7 @@
 }
 .projects{
     width: 100vw;
-    height: 220vh;
+    height: 260vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -200,6 +200,7 @@
     background-image: url("spacejoy-h2_3dL9yLpU-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 80vw;
     margin-left: 40px ;
 
 }
@@ -207,20 +208,21 @@
     background-image: url("pexels-ilya-shakir-2440471.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: 40%;
+    margin-left: 80px;
 }
 
 .project3{
     background-image: url("pexels-vecislavas-popa-1571458.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: 40px ;
+    margin-left: 100px ;
 
 }
 .project4{
     background-image: url("pexels-terry-magallanes-2988860.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: 260px;
 }
 
 .project0{
@@ -256,12 +258,18 @@ border-radius: 10px;
     color: black;
     background-color:#EAEDD1 ;
 }
+.project3,.project4{
+    width: 37%;
+    height: 90vh;
 
+}
+.project1{
+    width: 70%;
+    height: 60vh;
+}
 
 .projects>div{
-    height: 90vh;
     margin-bottom: 20px;
-    width: 40%;
 }
 .projects>div:first-of-type{
    
