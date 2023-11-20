@@ -189,7 +189,7 @@
 }
 .projects{
     width: 100vw;
-    height: 260vh;
+    height: 190vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -245,8 +245,9 @@
     text-align: center;
 }
 .project0{
-    background-color: #FFFBF5;
+    background-color: #f4f4f4;
     width: 100vw;
+    margin-top: -40px;
 
 }
 .project0 button{
@@ -265,6 +266,7 @@ border-radius: 10px;
 }
 .project1{
     width: 70%;
+    margin-right: 10px;
     height: 60vh;
 }
 
