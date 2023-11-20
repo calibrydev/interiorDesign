@@ -71,19 +71,49 @@
     height: 90vh;
 }
 .contentmiddle{
-    background-color: rgb(249, 252, 252);
+    background-color: transparent;
     width: 30vw;
     height: 28vh;
-    margin-left: 37%;
-    margin-top:29%;
+    margin-left: 7%;
+    margin-top:12%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.whats{
+    position: absolute;
+    margin-top: 75vh;
+    position: fixed;
+    margin-left: 90%;
+}
+.whats button{
+        overflow: hidden;
+        background-color: transparent;
+        border: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.whats a{
+    color: red;
+}
+.whats  i{
+    color: green;
+    width: 10vh;
+    height:20vw;
+}
+.fa-whatsapp{
+    font-size: 60px;
+}
+.color{
+    color: rgb(30, 63, 30);
+}
 .contentmiddle h1{
-    font-size: 4vh;
+    font-size: 5vh;
     font-weight: 700;
+    color: white;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 .contentmiddle button{

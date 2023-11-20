@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <style>
           
 
         </style>
@@ -35,12 +36,14 @@
             </div>
         </div>
         <div class="body">
+            <div class="whats">
+    <button>  <a href=" https://wa.me/+2540759598543"> <i class="fa-brands fa-whatsapp"></i>  </a></button>                
+            </div>
             <div class="contentmiddle">
+                <h1>Welcome to <b class="color"> Staarab </b></h1>
 
-                <h1> Welcome to __ designs</h1>
-                <p>
-                    Welcome to __ Designs we are  here for you
-                     </p>
+                <h1 class="contentmiddlel"> </h1>
+
                 <button>View Services</button>    
             </div>
         </div>
@@ -254,7 +257,24 @@ let position=0;
             position=Math.floor(Math.random()*reviews.length);
             showReview();
         })
+        const careers=["Timely delivery","consulatation","Excellence"," Financial services "];
+            let careerIndex=0
+            let charI=0;
+            updateText()
+            function updateText(){
+            charI++;
 
+        let container=document.querySelector('.contentmiddlel');
+            container.innerHTML=` <h1>We offer: ${careers[careerIndex].slice(0,charI)} </h1>`
+            if(charI ==careers[careerIndex].length){
+                careerIndex++
+                charI=0
+            }
+            if(careerIndex==careers.length){
+                careerIndex=0
+            }
+            setTimeout(updateText,100)
+            }
 
 
 
