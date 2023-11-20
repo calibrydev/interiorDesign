@@ -390,7 +390,7 @@ border-radius: 10px;
     font-size: 18px;
     margin-top: 20px;
     margin-right: 230px;                
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .review1 h1{
     text-align: center;
@@ -398,12 +398,12 @@ border-radius: 10px;
 }
 .review1 h2{
     font-size: 30px;
-    margin-left: 34%;
+    margin-left: 37%;
     margin-bottom: 10px;
 }
 .review1 p{
     font-size: 20px;
-    margin-left: 34%;
+    margin-left: 37%;
 }
 .review1 button:first-of-type{
     margin-left: 30%;
