@@ -11,7 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             *{
@@ -78,7 +78,7 @@
                 height: 90vh;
             }
             .parent{
-    background-color: rgb(40, 87, 61);
+    background-color: rgb(12, 49, 113);
 
                 width: 70%;
                 margin-left: 15%;
@@ -106,6 +106,7 @@
             }
             .linkss{
                 display: flex;
+                /* margin-left: 50px; */
                 flex-direction: row;
             }
             .left a{
@@ -199,7 +200,7 @@
     width: 80%;
 }
 .contact2  textarea{
-    width: 60%;
+    width: 50%;
 }
 .contact2 form input,textarea{
     margin-bottom: 10px;
@@ -216,9 +217,18 @@
                 .left a:first-of-type{
                 margin-left: 0px;
             }
+                   
+/* .nav{
+    background-color: rgb(245, 247, 245);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+} */
                 
 .links{
 width: 100%;
+background-color: white;
 flex-direction: column;
 height: 100vh;
 position: absolute;
@@ -234,7 +244,7 @@ flex-direction: row;
 justify-content: space-evenly;
 }
 .logo button{
-margin-left: 40vw;
+margin-left: 35vw;
 display: block;
 float: right;
 }
@@ -264,7 +274,7 @@ display: flex;
     }
     .left h1,p{ 
 
-        margin-left: 35px;
+        margin-left: 28px;
     }
     .right{
         height: 50%;
@@ -412,8 +422,9 @@ padding: 20px;
                     <p>ADDRESS:NAIROBI KENYA.</p>
                         <p> EMAIL@GMAIL>COM</p>
                     <div class="linkss">
-                        <a href="#">   <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i></a><a href="#"><i class="fa fa-twitter-square" style="font-size:36px"></i></a><a href="#">    <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>   </a><a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a>
-
+                        <a href="#"> <a href="#"><i class="fa fa-twitter-square" style="font-size:36px"></i></a><a href="#">     <i class="fa-brands fa-tiktok"></i>    </a><a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+                        <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
                 
@@ -453,6 +464,15 @@ padding: 20px;
     
 </div> -->
 
-        <script src="" async defer></script>
+        <script>
+              let button=document.getElementById("Open");
+            let links=document.getElementById("links");
+            button.onclick= function () {
+                links.classList.toggle("show");
+                document.getElementById("nav").style.position="fixed";
+                document.body.scroll="no";
+            }
+
+        </script>
     </body>
 </html>
