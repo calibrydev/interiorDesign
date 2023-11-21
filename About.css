@@ -403,7 +403,7 @@
   
                 .Header{
                     flex-direction: column;
-                    height: 220vh;
+                    height: 230vh;
                 }
                 .left{
                     height: 30%;
@@ -415,12 +415,16 @@
                     width: 100vw;
                 }
                 .journey{
-                    height: 180vh;
+                    height: 200vh;
                     overflow: hidden;
                 }
                 .journey h1{
                     margin-left: 50px;
                     margin-bottom: 70px;
+                }
+                .Header>div p{
+                    margin-left: 5px;
+                    margin-right:5px;
                 }
                 .start{
                     height: 35vh;

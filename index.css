@@ -571,7 +571,7 @@ display: flex;
 .projects{
     display: flex;
     flex-direction: column;
-    height: 400vh;
+    height: 270vh;
 }
 .projects>div{
     width: 95vw;
@@ -588,6 +588,9 @@ display: flex;
     margin-top: 15px;
     padding: 10px;
 }
+.project0 button{
+    margin-left: 17%;
+}
 .project1 h1,.heading h1{
     margin-left: 5px;
 }
@@ -602,6 +605,10 @@ display: flex;
 }
 .services>div h1{
     margin-left: 30px;
+}
+.services>div p{
+    margin-left:10px;
+    margin-right:10p;
 }
 .about{
     flex-direction: column;
@@ -666,7 +673,7 @@ display: flex;
 
 
 .reviews>div>button:first-of-type{
-    margin-left: 80px;
+    margin-left: 50px;
     margin-right: 0;
     margin-top: 30px;
 }
