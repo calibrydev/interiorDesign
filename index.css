@@ -25,6 +25,8 @@
     color: white;
     margin: 10px;
     align-self: center;
+    font-family: 'Abril Fatface'; font-size: 32px;
+
     font-size: 3vh;
 }
 .logo{
@@ -46,6 +48,9 @@
     margin-left: 20px;
     font-size: 2.2rem;
     font-weight: bolder;
+}
+.links{
+    display: flex;
 }
 .links a{
     color: black;
@@ -238,7 +243,7 @@
 }
 .projects{
     width: 100vw;
-    height: 190vh;
+    height: 195vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -246,22 +251,22 @@
 }
 
 .project1{
-    background-image: url("spacejoy-h2_3dL9yLpU-unsplash.jpg");
     background-size: cover;
+    background-image: url("pexels-vecislavas-popa-1571458.jpg");
     background-position: center;
     width: 80vw;
     margin-left: 40px ;
-
+    
 }
 .project2{
-    background-image: url("pexels-ilya-shakir-2440471.jpg");
     background-size: cover;
+    background-image: url("firstproject.jpg");
     background-position: center;
     margin-left: 50px;
 }
 
 .project3{
-    background-image: url("pexels-vecislavas-popa-1571458.jpg");
+    background-image: url("pexels-ilya-shakir-2440471.jpg");
     background-size: cover;
     background-position: center;
     margin-left: 70px ;
@@ -293,6 +298,15 @@
     margin-bottom: 30px;
     text-align: center;
 }
+.project111{
+    width: 100vw;
+}
+.project111 h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 .project0{
     background-color: transparent;
     width: 100vw;
@@ -304,14 +318,23 @@
     font-size: 19px;
     margin-left: 48%;
     margin-top: 1%;
-border-radius: 10px;
+border-radius: 3px green;
+
     color: black;
-    background-color:#f4f4f4 ;
+    background-color:white ;
+}
+.project0 button:hover{
+    background-color: green;
+    color: white;
 }
 .project0 button>a{
     text-decoration: none;
     font-size: 27px;
+    border: none;
     color: black;
+}
+.project0 button a:hover{
+    color:white;
 }
 .project3,.project4{
     width: 37%;
@@ -348,7 +371,7 @@ border-radius: 10px;
 .services{
     background-color: rgb(249, 246, 246);
     width: 100vw;
-    height: 80vh;
+    height: 83vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -402,10 +425,10 @@ border-radius: 10px;
 }
 .about .info h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .about .info p{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 20px;
 }
 .about .info button{
@@ -415,7 +438,9 @@ border-radius: 10px;
     margin-top: 6%;
 }
 .about .image{
-    background-image: url("krisztian-tabori-IyaNci0CyRk-unsplash.jpg");
+    background-image: url("AboutUs.jpg");
+    background-position: center;
+    background-size:cover;
     width: 60%;
     height: 90%;
 }

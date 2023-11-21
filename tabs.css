@@ -153,6 +153,7 @@ background-color: white;
    background-color: rgb(7, 26, 77);
    width: 100vw;
    height: 50vh;
+   overflow: hidden;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -180,6 +181,7 @@ background-color: white;
    text-decoration: none;
    color: white;
    font-size: 30px;
+   overflow: hidden;
 }
 .info{
    padding: 14px;
@@ -189,6 +191,10 @@ background-color: white;
 .info p{
    font-size: 20px;
    padding: 15px;
+
+}
+.info p:first-of-type {
+   margin-left:-40px;
 }
 .contact2{
    height: 48vh;
