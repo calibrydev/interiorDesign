@@ -76,6 +76,37 @@ height: 100px;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.whats{
+    margin-left:70%;
+}
+
+.whats{
+    position: absolute;
+    margin-top: 70vh;
+    position: fixed;
+    margin-left: 90%;
+}
+.whats button{
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+width: 100px;
+height: 100px;
+padding: 10px;
+}
+.whats a{
+    color: red;
+}
+.whats  i{
+    color: green;
+    width: 10vh;
+    height:20vw;
+}
+.fa-whatsapp{
+    font-size: 60px;
+}
+
+
 .services>div{
     background-color: green;
     margin-left: 40px ;
@@ -164,7 +195,9 @@ height: 100px;
 }
 
 .contactsfooter{
-    background-color: rgb(7, 26, 77);
+    background-color: #355326 ;
+
+    /* background-color: rgb(7, 26, 77); */
     width: 100vw;
     height: 50vh;
     display: flex;

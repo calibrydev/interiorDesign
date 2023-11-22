@@ -77,7 +77,17 @@
                 position: fixed!important
                 
                 }
-
+                .whats a{
+                    color: red;
+                }
+                .whats  i{
+                    color: green;
+                    width: 10vh;
+                    height:20vw;
+                }
+                .fa-whatsapp{
+                    font-size: 60px;
+                }
 
 
 
@@ -138,7 +148,7 @@
             .Header{
                 background-color: aqua;
                 width: 100vw;
-                height: 85vh;
+                height: 95vh;
                 display: flex;
                 flex-direction: row;
             }
@@ -155,7 +165,7 @@
                 background-color: rgb(251, 247, 247);
             }
             .right p{
-                font-size: 20px;
+                font-size: 15px;
             }
             .journey{
                 background-color: rgb(255, 255, 255);
@@ -316,7 +326,9 @@
 
             }
             .contactsfooter{
-                background-color: #041562;
+                /* background-color: #041562; */
+    background-color: #355326 ;
+            
                 width: 100vw;
                 height: 50vh;
                 display: flex;

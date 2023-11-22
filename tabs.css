@@ -66,6 +66,22 @@ height: 100px;
     margin-top: 5%;
  }
 
+ .whats a{
+   color: red;
+}
+.whats  i{
+   color: green;
+   width: 10vh;
+   height:20vw;
+}
+.fa-whatsapp{
+   font-size: 60px;
+}
+
+
+
+
+
  .About{
     width: 100vw;
     height: 365vh;
@@ -150,7 +166,9 @@ background-color: white;
     display: flex;
 }
 .contactsfooter{
-   background-color: rgb(7, 26, 77);
+   /* background-color: rgb(7, 26, 77); */
+   background-color: #355326 ;
+  
    width: 100vw;
    height: 50vh;
    overflow: hidden;

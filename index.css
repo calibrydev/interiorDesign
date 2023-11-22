@@ -317,10 +317,18 @@
     text-decoration: none;
     color: white;
 }
+.readMorea{
+    text-decoration: none;
+    color: black;
+}
+#Logo a{
+    text-decoration: none;
+    color: black;
+}
 .project0 button{
     padding: 7px;
     font-size: 19px;
-    margin-left: 48%;
+    margin-left: 44%;
     margin-top: 0%;
 border-radius: 3px green;
 
@@ -336,6 +344,9 @@ border-radius: 3px green;
     font-size: 27px;
     border: none;
     color: black;
+}
+.project0 a{
+    text-decoration: none;
 }
 .project0 button a:hover{
     color:white;
