@@ -365,9 +365,9 @@ border-radius: 3px green;
 .projects>div{
     margin-bottom: 20px;
 }
-.projects>div:first-of-type{
+/* .projects>div:first-of-type{
    
-}
+} */
 .projects>div:last-of-type{
     width: 95vw;
     height: 10vh;
@@ -748,8 +748,8 @@ display: flex;
 .review1 h1{
     margin-left: -250px;   
 }
-.review1 h2,p{
-}
+/* .review1 h2,p{
+} */
 .edit{
     background-color: red;
 }

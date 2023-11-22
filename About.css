@@ -298,8 +298,8 @@
                 justify-content: space-evenly;
                 background-color: violet;
             }
-            .contactsfooter .contact1{
-            }
+            /* .contactsfooter .contact1{
+            } */
             .contactsfooter>div{
                 width: 30%;
                 height: 30vh;
