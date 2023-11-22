@@ -613,12 +613,12 @@ display: flex;
     width: 100vw;
 }
 .projects>div:last-of-type button{
-    margin-left: 2cqb;
+    margin-left: 30%;
     margin-top: 15px;
     padding: 10px;
 }
 .project0 button{
-    margin-left: 20%;
+    margin-left: 30%;
 }
 .project1 h1,.heading h1{
     margin-left: 5px;
