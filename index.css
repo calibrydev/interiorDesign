@@ -243,7 +243,7 @@
 }
 .projects{
     width: 100vw;
-    height: 195vh;
+    height: 203vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -313,11 +313,15 @@
     margin-top: -40px;
 
 }
+#sbtn  {
+    text-decoration: none;
+    color: white;
+}
 .project0 button{
-    padding: 10px;
+    padding: 7px;
     font-size: 19px;
     margin-left: 48%;
-    margin-top: 1%;
+    margin-top: 0%;
 border-radius: 3px green;
 
     color: black;
@@ -609,12 +613,12 @@ display: flex;
     width: 100vw;
 }
 .projects>div:last-of-type button{
-    margin-left: 40%;
+    margin-left: 2cqb;
     margin-top: 15px;
     padding: 10px;
 }
 .project0 button{
-    margin-left: 17%;
+    margin-left: 20%;
 }
 .project1 h1,.heading h1{
     margin-left: 5px;
